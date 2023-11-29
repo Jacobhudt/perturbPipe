@@ -3,15 +3,15 @@ Perturbation application for pipes in OpenFOAMv2306 based on perturbU from Eugen
 
 ## Installation and usage
 Install with 
-'''sh
+
+```sh
 wmake all
-'''
+```
 Put the perturbPipeDict in the /constant directory and change parameters.
 
 
 Correct formatting in "transportDict":
-'''sh
-
+```c++
 
 Ubar Ubar [0 1 -1 0 0 0 0] (0 0 0.795);
 
@@ -21,4 +21,4 @@ nu nu [0 2 -1 0 0 0 0] 1.5e-05;
 
 Retau Retau [0 0 0 0 0 0 0] 180; 
 
-'''
+```
